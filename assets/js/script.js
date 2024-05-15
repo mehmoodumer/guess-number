@@ -7,7 +7,6 @@ let remaningSlots = document.querySelector(".lastResult");
 let alertError = document.querySelector(".alert");
 
 let randomNumber = parseInt(Math.random() * 100 + 1);
-console.log(randomNumber);
 let p = document.createElement('p');
 
 let isPlayable = true;
