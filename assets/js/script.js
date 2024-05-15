@@ -84,9 +84,10 @@ function startNewGame(){
     prevNumbers = [];
     numberGuess = 1;
     guessSlot.innerHTML = "";
+    lowOrHi.innerHTML = "";
     remaningSlots.innerHTML =  `${11 - numberGuess} `;
     userInput.removeAttribute('disabled');
-    startOver.removeChild(p);
+    startOver.removeChild(startOver.lastElementChild);
     isPlayable = true;
   })
 }
